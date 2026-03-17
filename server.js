@@ -54,7 +54,7 @@ app.use(cookieParser());
 // Middleware to check token validity
 app.use(utilities.checkJWTToken);
 
-/* ***********************
+/* ************************
  * View Engine and Templates
  *************************/
 app.set("view engine", "ejs");
